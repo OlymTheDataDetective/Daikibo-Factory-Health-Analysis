@@ -41,15 +41,9 @@ Transformed the timestamp column from milliseconds into a proper Date/Time forma
 
 **🔄 Data Transformation**
 
-• Created calculated columns for device status classification
+• Created calculated columns for device status classification, where value 10 is added for status = 'unhealthy'.
 
 • Converted timestamp into separate Date, Time and Hour fields
-
-• Built KPIs for machine health, downtime and device performance
-
-• Cleaned nulls, standardized column types and optimized tables
-
-To effectively calculate the total downtime of the unhealthy machine, new column with value 10 is added in every rows  of status = 'unhealthy'.
 
 
 
@@ -83,13 +77,13 @@ These visuals help quickly understand bottlenecks, efficiency and potential oper
 
 **⭐ Key Insights Drawn**
 
-• The overall health of the factories is 99.94%
+• The overall health of the factories is 99.94%.
 
 • The Daikibo factories in Japan has the highest number of unhealthy device with more downtime.
 
-• Laser Welder and laser cutter has the highest downtime.
+• Machines - Laser Welder and laser cutter has the highest downtime.
 
-• Revealed patterns in device health fluctuations over hour of the day.
+• Revealed patterns in device health fluctuations over hour of the day. 7am in the morning shows the highest downtime of machines.
 
 • Provided clear KPIs for monitoring machine success/failure rates.
 
