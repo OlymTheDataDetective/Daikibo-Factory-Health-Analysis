@@ -70,13 +70,12 @@ Transformed the timestamp column from milliseconds into a proper Date/Time forma
 • Overview Overall KPI Cards
 
 • Factory Performance 
-<img width="773" height="437" alt="Image" src="https://github.com/user-attachments/assets/b57c37bd-a8cf-47c8-8555-34c530abc91d" />
 
 • Tracking Unhealthy Device
 
 • Timeline of device downtime analysis
-<img width="275" height="183" alt="Image" src="https://github.com/user-attachments/assets/c9ce2472-346b-476d-8921-d2824816382c" />
 
+<img width="773" height="437" alt="Image" src="https://github.com/user-attachments/assets/b57c37bd-a8cf-47c8-8555-34c530abc91d" />
 
 These visuals help quickly understand bottlenecks, efficiency and potential operational risks.
 
