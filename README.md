@@ -5,11 +5,12 @@
 
 This project is inspired by the Deloitte Australia Data Analytics Job Simulation (Forage, November 2025).
 
+<img width="770" height="435" alt="Image" src="https://github.com/user-attachments/assets/88bc32f3-04ec-4fd5-9df4-65f8daed5662" />
+
+
 This project focuses on analyzing Daikibo’s factory telemetry data to understand machine health, downtime patterns and overall operational efficiency.
 
 The tasks include data cleaning, KPI development, dashboard building and generating insights for business stakeholders.
-
-<img width="770" height="435" alt="Image" src="https://github.com/user-attachments/assets/88bc32f3-04ec-4fd5-9df4-65f8daed5662" />
 
 
 **📁 Dataset Overview**
@@ -69,16 +70,17 @@ Transformed the timestamp column from milliseconds into a proper Date/Time forma
 • Overview Overall KPI Cards
 
 • Factory Performance 
+<img width="773" height="437" alt="Image" src="https://github.com/user-attachments/assets/b57c37bd-a8cf-47c8-8555-34c530abc91d" />
 
 • Tracking Unhealthy Device
 
 • Timeline of device downtime analysis
+<img width="275" height="183" alt="Image" src="https://github.com/user-attachments/assets/c9ce2472-346b-476d-8921-d2824816382c" />
 
-<img width="773" height="437" alt="Image" src="https://github.com/user-attachments/assets/b57c37bd-a8cf-47c8-8555-34c530abc91d" />
 
 These visuals help quickly understand bottlenecks, efficiency and potential operational risks.
 
-<img width="275" height="183" alt="Image" src="https://github.com/user-attachments/assets/c9ce2472-346b-476d-8921-d2824816382c" />
+
 
 **⭐ Key Insights Drawn**
 
