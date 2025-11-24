@@ -73,7 +73,7 @@ Transformed the timestamp column from milliseconds into a proper Date/Time forma
 
 These visuals help quickly understand bottlenecks, efficiency and potential operational risks.
 
-https://github.com/OlymTheDataDetective/Deloitte-Australia-Data-Analytics-Job-Simulation-on-Forage-November-2025/issues/1#issue-3656984425
+<img width="275" height="183" alt="Image" src="https://github.com/user-attachments/assets/c9ce2472-346b-476d-8921-d2824816382c" />
 
 **⭐ Key Insights Drawn**
 
