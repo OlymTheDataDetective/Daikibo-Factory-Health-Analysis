@@ -9,6 +9,8 @@ This project focuses on analyzing Daikibo’s factory telemetry data to understa
 
 The tasks include data cleaning, KPI development, dashboard building and generating insights for business stakeholders.
 
+<img width="770" height="435" alt="Image" src="https://github.com/user-attachments/assets/88bc32f3-04ec-4fd5-9df4-65f8daed5662" />
+
 
 **📁 Dataset Overview**
 
@@ -29,11 +31,11 @@ Power BI, Power Query, SQL, Microsoft Excel
 
 **🧹 Data Cleaning**
 
-**1. Flattened Nested JSON Data**
+**a) Flattened Nested JSON Data**
    
 Converted the raw JSON file into a clean tabular format by using Power Query’s To Table and Expand options. All nested Record/List fields were expanded step-by-step and only the required columns were selected to keep the dataset structured and readable.
 
-**2. Converted Unix Timestamp to Date/Time**
+**b) Converted Unix Timestamp to Date/Time**
    
 Transformed the timestamp column from milliseconds into a proper Date/Time format using a custom Power Query formula. This ensured accurate time-based analysis and converted values like 1619826600000 into 30-04-2021 23:50:00.
 
@@ -59,6 +61,7 @@ Transformed the timestamp column from milliseconds into a proper Date/Time forma
 
 • Calculated % overall factory health using KPIs
 
+<img width="769" height="437" alt="Image" src="https://github.com/user-attachments/assets/e4c2c4e6-b2f0-4da0-a77c-4f35502abcc0" />
 
 
 **📈 Power BI Dashboards**
@@ -70,6 +73,8 @@ Transformed the timestamp column from milliseconds into a proper Date/Time forma
 • Tracking Unhealthy Device
 
 • Timeline of device downtime analysis
+
+<img width="773" height="437" alt="Image" src="https://github.com/user-attachments/assets/b57c37bd-a8cf-47c8-8555-34c530abc91d" />
 
 These visuals help quickly understand bottlenecks, efficiency and potential operational risks.
 
