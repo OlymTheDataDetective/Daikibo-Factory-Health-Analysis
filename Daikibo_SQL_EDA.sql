@@ -2,12 +2,12 @@
 Select * from daikibo_telemetry_data
 
 
---Which factory has the highest downtime device?
+--Which factory has the highest downtime?
 With CTE as(Select *, 
 CASE WHEN status = 'unhealthy' then 10 else 0 end as downtime --adding new column temporarily
 from daikibo_telemetry_data)
-
-Select TOP 1 factory from CTE    --Selecting the factory with the highest downtime
+ --Selecting the factory with the highest downtime
+Select TOP 1 factory from CTE   
 where status = 'unhealthy'
 group by factory
 order by sum(downtime) desc      
@@ -35,7 +35,7 @@ group by device_type
 order by total_downtime desc
 
 
---Which country has the highest factory set up and what's the factory healthy of that country?
+--Which country has the highest factory set up and what's the factory health of that country?
 Select TOP 1 country 
 from daikibo_telemetry_data
 group by country
@@ -49,11 +49,12 @@ where country = 'japan'
 group by country
 
 
---Which country has the lowest factory set up and what's the factory healthy of that country?
+--Which country has the lowest factory set up and what's the factory health of that country?
 Select TOP 1 country 
 from daikibo_telemetry_data
 group by country
-order by count(*) -- from this query we know that the country is china
+order by count(*)
+ -- from the above queries we know that the country is china
 
 Select country, CONCAT(CAST(CAST(SUM(
 CASE WHEN status = 'healthy' THEN 1 else 0 end) * 100 as decimal (10,2))
